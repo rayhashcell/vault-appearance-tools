@@ -1,6 +1,6 @@
 {
 	"name": "vault-appearance-tools",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Appearance helpers for Obsidian vaults",
 	"main": "main.js",
 	"packageManager": "pnpm@10.33.0",
@@ -10,7 +10,7 @@
 		"version": "node version-bump.mjs"
 	},
 	"keywords": [],
-	"author": "bisco",
+	"author": "rayman",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "24.0.13",

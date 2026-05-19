@@ -49,7 +49,7 @@ When updating the installed test plugin, build first and copy generated files fr
 
 to:
 
-- `/Users/bisco/private/obvault/.obsidian/plugins/vault-appearance-tools/`
+- `<test-vault>/.obsidian/plugins/vault-appearance-tools/`
 
 Then verify `main.js`, `manifest.json`, and `styles.css` by SHA-256 equality.
 
