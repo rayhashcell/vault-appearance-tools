@@ -22,6 +22,10 @@ Production builds are written to:
 dist/vault-appearance-tools-<version>/vault-appearance-tools/
 ```
 
+## Release
+
+Stable releases are published by pushing a `v`-prefixed semver tag, such as `v1.0.0`. The `Publish GitHub Release` workflow builds the plugin and uploads `main.js`, `manifest.json`, and `styles.css` from the production build directory.
+
 ## Test Vault Deployment
 
 After building, copy these files:

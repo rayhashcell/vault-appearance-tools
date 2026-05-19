@@ -1,4 +1,28 @@
+# Dependencies and package-manager cache
 node_modules
 node_modules/
+.pnpm-store
+.pnpm-store/
+
+# Build and local test vault outputs
 dist
 dist/
+test-vault
+test-vault/
+
+# Local environment and logs
+.env
+.env.*
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# TypeScript incremental build output
+*.tsbuildinfo

@@ -6,7 +6,8 @@
 	"packageManager": "pnpm@10.33.0",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
-		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs"
 	},
 	"keywords": [],
 	"author": "bisco",

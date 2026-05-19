@@ -40,3 +40,22 @@ For test-vault deployment, copy the built `main.js`, `manifest.json`, and `style
 - `/Users/bisco/private/obvault/.obsidian/plugins/vault-appearance-tools/`
 
 Verify copied files with SHA-256 equality.
+
+## Release Process
+
+For normal GitHub releases:
+
+1. Keep plugin metadata versions as plain semver without a `v` prefix:
+   - `package.json`
+   - `manifest.json`
+   - `versions.json`
+2. Bump the package version with `pnpm version patch --no-git-tag-version` unless a specific version is requested. This runs `version-bump.mjs`, which syncs `manifest.json` and appends `versions.json`.
+3. Run `pnpm run build`, `git diff --check`, and the validation grep commands above.
+4. Commit the release changes.
+5. Create and push a Git tag with a `v` prefix, for example `v1.0.0`.
+
+The `Publish GitHub Release` GitHub Actions workflow is triggered by `v*.*.*` tags or by manual dispatch. It builds the plugin with pnpm and publishes a GitHub Release named after the `v`-prefixed tag. The workflow uploads exactly these plugin files from `dist/vault-appearance-tools-<version>/vault-appearance-tools/`:
+
+- `main.js`
+- `manifest.json`
+- `styles.css`
