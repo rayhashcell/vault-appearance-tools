@@ -1,0 +1,10 @@
+{
+	"id": "vault-appearance-tools",
+	"name": "Vault Appearance Tools",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.3",
+	"description": "Appearance helpers for Obsidian vaults",
+	"author": "bisco",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
