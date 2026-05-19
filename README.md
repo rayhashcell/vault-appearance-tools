@@ -19,19 +19,19 @@ This plugin only changes interface appearance. It does not handle note encryptio
 
 ### File Explorer, Dark Theme
 
-![File explorer with rainbow folders, file type icons, and extension badges in dark theme](docs/images/file-explorer-dark.png)
+<img src="docs/images/file-explorer-dark.png" alt="File explorer with rainbow folders, file type icons, and extension badges in dark theme" width="420">
 
 ### File Explorer, Light Theme
 
-![File explorer with rainbow folders, file type icons, and extension badges in light theme](docs/images/file-explorer-light.png)
+<img src="docs/images/file-explorer-light.png" alt="File explorer with rainbow folders, file type icons, and extension badges in light theme" width="420">
 
 ### Settings, Simplified Chinese
 
-![Vault Appearance Tools settings page in Simplified Chinese](docs/images/settings-zh-cn.png)
+<img src="docs/images/settings-zh-cn.png" alt="Vault Appearance Tools settings page in Simplified Chinese" width="720">
 
 ### Settings, English
 
-![Vault Appearance Tools settings page in English](docs/images/settings-en.png)
+<img src="docs/images/settings-en.png" alt="Vault Appearance Tools settings page in English" width="720">
 
 ## Install With BRAT
 
