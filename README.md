@@ -15,24 +15,6 @@ This plugin only changes interface appearance. It does not handle note encryptio
 - Markdown extension badges: shows file extension badges on the right side of file explorer rows, making `.md`, `.mdx`, and `.markdown` easier to distinguish.
 - Bilingual settings UI: supports English and Simplified Chinese.
 
-## Screenshots
-
-### File Explorer, Dark Theme
-
-<img src="docs/images/file-explorer-dark.png" alt="File explorer with rainbow folders, file type icons, and extension badges in dark theme" width="420">
-
-### File Explorer, Light Theme
-
-<img src="docs/images/file-explorer-light.png" alt="File explorer with rainbow folders, file type icons, and extension badges in light theme" width="420">
-
-### Settings, Simplified Chinese
-
-<img src="docs/images/settings-zh-cn.png" alt="Vault Appearance Tools settings page in Simplified Chinese" width="720">
-
-### Settings, English
-
-<img src="docs/images/settings-en.png" alt="Vault Appearance Tools settings page in English" width="720">
-
 ## Install With BRAT
 
 This plugin can be installed and updated through the Obsidian BRAT plugin. This is useful before the plugin is available in the Obsidian community plugin store.
@@ -112,6 +94,24 @@ Production builds are written to:
 ```text
 dist/vault-appearance-tools-<version>/vault-appearance-tools/
 ```
+
+## Screenshots
+
+### File Explorer, Dark Theme
+
+<img src="docs/images/file-explorer-dark.png" alt="File explorer with rainbow folders, file type icons, and extension badges in dark theme" width="420">
+
+### File Explorer, Light Theme
+
+<img src="docs/images/file-explorer-light.png" alt="File explorer with rainbow folders, file type icons, and extension badges in light theme" width="420">
+
+### Settings, Simplified Chinese
+
+<img src="docs/images/settings-zh-cn.png" alt="Vault Appearance Tools settings page in Simplified Chinese" width="720">
+
+### Settings, English
+
+<img src="docs/images/settings-en.png" alt="Vault Appearance Tools settings page in English" width="720">
 
 ## Release
 
